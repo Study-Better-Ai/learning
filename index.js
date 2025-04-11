@@ -39,9 +39,7 @@ app.post('/submit', (req, res) => {
         console.log("why" +letnum),
         // res.redirect('/submit')
     );
-    // res.render("footer.ejs",
-    //   { day: dayName, date: date, month:monthName, year:year },
-    // )
+
 })
 
 

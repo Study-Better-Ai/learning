@@ -19,12 +19,13 @@ export function getmessage(){
     if (dayName === 'Saturday' || dayName === 'Sunday') {
         return 'wow! it is weekend';
     }else{
-        return 'damn! it is weekday';
+        return 'damn! it is a weekday';
     }
 }
-
 
 
 export function getday(){
     return dayName;
 }
+
+// dup
