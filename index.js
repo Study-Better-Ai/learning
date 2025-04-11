@@ -26,13 +26,7 @@ function count(x,y){
 }
 
 app.get('/', (req, res) => {
-  res.render('index.ejs',
-    // { day: dayName, date: date, month:monthName, year:year },
-    // 
-  );
-  // res.render("footer.ejs",
-  //   { day: dayName, date: date, month:monthName, year:year },
-  // )
+  res.render('index.ejs')
 });
 
 // app.get('/submit', (req, res) => {
