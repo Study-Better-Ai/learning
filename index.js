@@ -29,15 +29,6 @@ app.get('/', (req, res) => {
   res.render('index.ejs')
 });
 
-// app.get('/submit', (req, res) => {
-
-//     res.render("footer.ejs",
-//       { day: dayName, date: date, month:monthName, year:year },
-//     )
-// });
-
-
-
 app.post('/submit', (req, res) => {
     letnum = count(req.body['fname'], req.body['lname'])
     res.render('index.ejs',
